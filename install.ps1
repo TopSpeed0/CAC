@@ -1,4 +1,6 @@
 # installation
+# install C:\Users\ybohadana\OneDrive - COGNYTE\Desktop\Cisco AnyConnect 5.0.3
+$CAC = Get-ChildItem (Get-Location)*.msi*
 foreach ($msiPath in $CAC) {
     # Start
     Write-Host "Start MSI installation of:$msiPath." -ForegroundColor Yellow
